@@ -1,0 +1,13 @@
+main: io.github.itsk1mlot.boom.Main
+name: BOOOOOOM
+version: 1.0
+api-version: 1.19
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+  - org.jetbrains.kotlin:kotlin-reflect:1.7.20
+  - io.github.monun:kommand-core:3.1.2
+  - io.github.monun:invfx-core:3.3.0
+commands:
+  toggleboom:
+    permissions: toggleboom.toggle
+    description: ToggleBoom
